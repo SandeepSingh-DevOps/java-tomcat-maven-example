@@ -85,28 +85,28 @@ h1 {
     <div class="content">
       <img src="1.jpeg" alt="Mountains" style="width:100%">
       <h3>One from Lavasa</h3>
-      <pLike all great travellers, I have seen more than I remember and remember more than I have seen.</p>
+      <p>Like all great travellers, I have seen more than I remember and remember more than I have seen.</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
     <img src="2.jpeg" alt="Lights" style="width:100%">
       <h3>One from Kashid Beach</h3>
-      <p>Many people resist change and hold on to what the universe is telling them to release. However, you should embrace positive change and make it part of your life. If things aren’t going as planned, maybe it’s time to re-examine your actions and consider what direction really matters to you.</p>
+      <p>Many people resist change and hold on to what the universe is telling them to release. However, you should embrace positive change and make it part of your life. If things aren not going as planned, maybe its time to re-examine your actions and consider what direction really matters to you.</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
     <img src="3.jpeg" alt="Nature" style="width:100%">
       <h3>One from Koregaon Park</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+      <p>I love places that make you realize how tiny you and your problems are.</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
     <img src="4.jpeg" alt="Mountains" style="width:100%">
       <h3>One from Alibagh</h3>
-      <p>Sunsets are not only beautiful, but they also have so much meaning. They signify endings, change, and transformation; they remind us that change is part of life and everything has an ending.</p>
+      <p>Sunsets are not only beautiful, but they also have so much meaning. They signify endings, change, and transformation, they remind us that change is part of life and everything has an ending.</p>
     </div>
   </div>
 <!-- END GRID -->
@@ -115,8 +115,8 @@ h1 {
 <div class="content">
   <img src="5.jpeg" alt="Bear" style="width:100%">
   <h3>One from Nature Walks on weekend</h3>
-  <p>We’re constantly shown the “real world” on our screens but we come face to face with the real world out on the trail.</p>
-  <p>What a funny world we live in when we won’t turn our phones off but we get excited to see we’ve walked far enough to lose service.</p>
+  <p>We are constantly shown the REAL WORLD on our screens but we come face to face with the real world out on the trail.</p>
+  <p>What a funny world we live in when we will not turn our phones off but we get excited to see we have walked far enough to lose service.</p>
 </div>
 
 <!-- END MAIN -->
