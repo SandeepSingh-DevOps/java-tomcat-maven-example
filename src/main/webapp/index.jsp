@@ -83,7 +83,7 @@ h1 {
 <div class="row">
   <div class="column">
     <div class="content">
-      <img src="/webapp/w3images/1.jpg" alt="Mountains" style="width:100%">
+      <img src="1.jpg" alt="Mountains" style="width:100%">
       <h3>My Work</h3>
       <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
     </div>
