@@ -90,21 +90,21 @@ h1 {
   </div>
   <div class="column">
     <div class="content">
-    <img src="/w3images/2.jpeg" alt="Lights" style="width:100%">
+    <img src="2.jpeg" alt="Lights" style="width:100%">
       <h3>My Work</h3>
       <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
-    <img src="/w3images/3.jpg" alt="Nature" style="width:100%">
+    <img src="3.jpg" alt="Nature" style="width:100%">
       <h3>My Work</h3>
       <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
-    <img src="/w3images/4.jpg" alt="Mountains" style="width:100%">
+    <img src="4.jpg" alt="Mountains" style="width:100%">
       <h3>My Work</h3>
       <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
     </div>
@@ -113,7 +113,7 @@ h1 {
 </div>
 
 <div class="content">
-  <img src="/w3images/5.HEIC" alt="Bear" style="width:100%">
+  <img src="5.HEIC" alt="Bear" style="width:100%">
   <h3>Some Other Work</h3>
   <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
   <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
