@@ -73,7 +73,7 @@ h1 {
 <!-- MAIN (Center website) -->
 <div class="main">
 
-<h1>Expidition</h1>
+<h1>Expedition</h1>
 <hr>
 
 <h2>PORTFOLIO</h2>
