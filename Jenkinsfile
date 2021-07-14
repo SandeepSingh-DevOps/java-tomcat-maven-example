@@ -8,7 +8,7 @@ stages {
     
     stage("Build Code"){
             steps{
-                sh "mvn clean package"
+                sh "mvn clean install"
             }
             post {
                 success {
