@@ -25,7 +25,7 @@ stages {
 
      stage("Deploy code"){
             steps{
-                sshagent(['ubuntu']){
+                sshagent(['ce3621a8-d285-4457-b158-19f6cdcc14a2']){
                 sh "scp -o StrictHostKeyChecking=no target/*.war  ubuntu@3.105.97.36:/var/lib/tomcat9/webapps"
                 }
             }
