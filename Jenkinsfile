@@ -8,7 +8,7 @@ stages {
     
     stage("Build Code"){
             steps{
-                sh "mvn clean install"
+                sh "mvn clean install sonar:sonar"
             }
             post {
                 success {
@@ -23,12 +23,12 @@ stages {
         }
     }
 
-     stage("Deploy code"){
-            steps{
-                sshagent(['ubuntu']){
-                sh "scp -o StrictHostKeyChecking=no target/*.war  ubuntu@3.105.97.36:/var/lib/tomcat9/webapps"
-                }
-            }
-    }
-}
+//     stage("Deploy code"){
+//            steps{
+//               sshagent(['ubuntu']){
+//                sh "scp -o StrictHostKeyChecking=no target/*.war  ubuntu@3.105.97.36:/var/lib/tomcat9/webapps"
+//                }
+//            }
+//    }
+ }
 }
