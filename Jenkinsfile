@@ -31,7 +31,7 @@ stages {
     }     
      stage('Quality test Code') {
         steps{
-        sh 'mvn sonar:sonar'
+        sh 'mvn install sonar:sonar'
         }
     }
 
