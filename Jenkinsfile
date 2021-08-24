@@ -2,13 +2,25 @@ pipeline{
     agent any
 
      tools {
-        maven "maven-3"
+        maven "maven-*"
     }
 stages {
     
+    stage('Clean Code') {
+        steps{
+          sh 'mvn clean'
+        }
+    }
+    
+     stage('Compile Code') {
+        steps{
+          sh 'mvn compile'
+        }
+    }
+    
     stage("Build Code"){
             steps{
-                sh "mvn clean install sonar:sonar"
+                sh "mvn package"
             }
             post {
                 success {
@@ -17,9 +29,9 @@ stages {
             }
         }
     }     
-     stage('Maven Test') {
+     stage('Quality test Code') {
         steps{
-        sh 'mvn test'
+        sh 'mvn sonar:sonar'
         }
     }
 
