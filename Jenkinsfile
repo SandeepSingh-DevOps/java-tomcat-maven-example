@@ -31,10 +31,9 @@ stages {
     }     
      stage('Quality test Code') {
         steps{
-        withSonarQubeEnv('My_Sonarqube') {
-                    sh "./gradlew sonarqube"
+            withSonarQubeEnv('My_Sonarqube') {
+                    sh 'mvn sonar:sonar'
                 }    
-        sh 'mvn sonar:sonar'
         }
     }
 
