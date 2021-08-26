@@ -12,12 +12,6 @@ stages {
         }
     }
     
-     stage('Compile Code') {
-        steps{
-          sh 'mvn compile'
-        }
-    }
-    
     stage("Build Code"){
             steps{
                 sh "mvn package"
@@ -37,7 +31,7 @@ stages {
         }
     }
 
-     stage("Deploy code"){
+     stage("Deploy Code"){
             steps{
                 sshagent(['ubuntu']){
                 sh "scp -o StrictHostKeyChecking=no target/*.war  ubuntu@172.31.42.112:/var/lib/tomcat9/webapps"
