@@ -33,8 +33,8 @@ stages {
 
      stage("Deploy Code"){
             steps{
-                sshagent(['root']){
-                sh "scp -o StrictHostKeyChecking=no target/*.war  ubuntu@172.31.42.112:/var/lib/tomcat9/webapps"
+                sshagent(['ubuntu']){
+                sh "scp -o StrictHostKeyChecking=no target/*.war  ubuntu@13.211.172.234:/var/lib/tomcat9/webapps"
                 }
             }
      }
