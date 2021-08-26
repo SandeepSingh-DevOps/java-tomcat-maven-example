@@ -37,12 +37,12 @@ stages {
         }
     }
 
-//     stage("Deploy code"){
-//            steps{
-//               sshagent(['ubuntu']){
-//                sh "scp -o StrictHostKeyChecking=no target/*.war  ubuntu@3.105.97.36:/var/lib/tomcat9/webapps"
-//                }
-//            }
-//    }
+     stage("Deploy code"){
+            steps{
+               sshagent(['ubuntu']){
+                sh "scp -o StrictHostKeyChecking=no target/*.war  ubuntu@172.31.42.112:/var/lib/tomcat9/webapps"
+                }
+            }
+    }
  }
 }
